@@ -1,0 +1,7 @@
+# ignore everything
+/*
+
+# Exclude from ignore (i.e. include in repo)
+!/provision
+!Vagrantfile
+!.gitignore
