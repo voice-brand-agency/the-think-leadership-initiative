@@ -298,25 +298,6 @@ header .row-fluid {
     margin-bottom: 0;
 }
 
-.met_logo {
-    margin-top: 0;
-    position: absolute;
-    height: 100%;
-}
-
-.met_logo,
-.met_logo img {
-    display: inline-block;
-}
-
-.met_logo_loading {
-    opacity: 0;
-}
-
-.met_logo img {
-    max-height: 150px;
-}
-
 header aside {
     float: right;
     margin-top: 64.5px;
