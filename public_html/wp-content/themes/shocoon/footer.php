@@ -128,7 +128,7 @@ if('' != get_theme_mod('cacoon_twitter_username')):
 	</script>
 <?php endif; ?>
 
-<footer class="met_bgcolor3 clearfix">
+<footer class="clearfix">
 	<div class="met_content">
 		<div class="row-fluid">
 			<?php $cacoon_footer_style = ''; $cacoon_footer_style = intval(get_theme_mod('cacoon_footer_style')); ?>
