@@ -1156,6 +1156,7 @@ h3.met_title_stack {
  ------------------------------*/
 footer {
     padding-top: 32px;
+    background-color: #000;
 }
 
 footer h3 {
