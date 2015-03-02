@@ -1,7 +1,23 @@
-# ignore everything
-/*
-
-# Exclude from ignore (i.e. include in repo)
-!/provision
-!Vagrantfile
+# Ignore everything in the root except the "wp-content" directory.
+.vagrant/
+Movefile
+public_html/*
 !.gitignore
+!public_html/wp-content/
+
+# Ignore everything in the "wp-content" directory, except the "plugins"
+# and "themes" directories.
+public_html/wp-content/*
+!public_html/wp-content/plugins/
+!public_html/wp-content/themes/
+
+# Ignore everything in the "plugins" directory, except the plugins you
+# specify (see the commented-out examples for hints on how to do this.)
+public_html/wp-content/plugins/*
+# !wp-content/plugins/my-single-file-plugin.php
+# !wp-content/plugins/my-directory-plugin/
+
+# Ignore everything in the "themes" directory, except the themes you
+# specify (see the commented-out example for a hint on how to do this.)
+public_html/wp-content/themes/*
+!public_html/wp-content/themes/shocoon/
