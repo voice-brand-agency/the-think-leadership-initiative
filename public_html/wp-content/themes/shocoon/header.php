@@ -214,7 +214,7 @@
         </ul>
 
         <?php if (get_theme_mod('cacoon_header_search', '1') == '1'): ?>
-            <div class="pull-right met_bgcolor met_menu_search_wrapper">
+            <div class="pull-right met_menu_search_wrapper">
                 <form class="met_menu_search" method="get" action="<?php echo esc_url(home_url('/')); ?>">
                     <input type="text" name="s" class="met_menu_search_text" required="" placeholder="Search">
 
