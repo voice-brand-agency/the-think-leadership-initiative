@@ -49,6 +49,10 @@
     color: #025599;
 }
 
+.met_color4 {
+    color: #3b3f48;
+}
+
 .met_bgcolor {
     background-color: #18ADB5;
 }
@@ -66,7 +70,7 @@
 }
 
 .met_bgcolor5 {
-    background-color: #A4AEB9;
+    background-color: #F5F5F5;
 }
 
 .met_bgcolor6 {
@@ -787,7 +791,7 @@ h3.met_title_stack {
 }
 
 .met_img_with_text article.met_bgcolor5:before {
-    border-color: transparent #A4AEB9 transparent transparent;
+    border-color: transparent #F5F5F5 transparent transparent;
 }
 
 .met_img_with_text article.met_bgcolor6:before {
