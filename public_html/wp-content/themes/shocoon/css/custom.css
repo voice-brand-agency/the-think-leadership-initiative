@@ -241,6 +241,7 @@ h6.met_bold_one {
 .met_text_block {
     background-color: #F1F4F7;
     padding: 30px;
+    display: table;
 }
 
 #met_fullScreenImg {
@@ -5773,5 +5774,10 @@ code, pre {
 }
 .home .met_service_box {
     background-color: #f5f5f5;
+}
+.met_bgcolor.met_button.custombtn {
+    clear: both;
+    display: inline-block;
+    float: right;
 }
 /*END Home page | Text Block*/
