@@ -62,7 +62,7 @@
 }
 
 .met_bgcolor4 {
-    background-color: #3E444C;
+    background-color: #3b3f48;
 }
 
 .met_bgcolor5 {
@@ -661,7 +661,7 @@ h3.met_title_stack {
     height: 30px;
     position: absolute;
     bottom: 30px;
-    right: 30px;
+    left: 68px;
     display: block;
     line-height: 32px;
     text-align: center;
@@ -669,7 +669,7 @@ h3.met_title_stack {
 }
 
 .met_slider_nav_prev {
-    right: 70px;
+    left: 29px;
 }
 
 .met_slider_nav_next:hover,
