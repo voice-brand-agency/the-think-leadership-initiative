@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Conv_Aller_Bd';
+    src: url('fonts/Aller_Bd.eot');
+    src: local('☺'), url('fonts/Aller_Bd.woff') format('woff'), url('fonts/Aller_Bd.ttf') format('truetype'), url('fonts/Aller_Bd.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Conv_Aller_It';
+    src: url('fonts/Aller_It.eot');
+    src: local('☺'), url('fonts/Aller_It.woff') format('woff'), url('fonts/Aller_It.ttf') format('truetype'), url('fonts/Aller_It.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_Aller_Lt';
+    src: url('fonts/Aller_Lt.eot');
+    src: local('☺'), url('fonts/Aller_Lt.woff') format('woff'), url('fonts/Aller_Lt.ttf') format('truetype'), url('fonts/Aller_Lt.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_Aller_Rg';
+    src: url('fonts/Aller_Rg.eot');
+    src: local('☺'), url('fonts/Aller_Rg.woff') format('woff'), url('fonts/Aller_Rg.ttf') format('truetype'), url('fonts/Aller_Rg.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
