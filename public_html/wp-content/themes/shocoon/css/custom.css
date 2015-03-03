@@ -691,6 +691,18 @@ h3.met_title_stack {
 /*-------------------------------
 	Image With Text Boxes
  ------------------------------*/
+
+.infobox h2 {
+    font:normal 15px/normal "Conv_Aller_Bd";
+    margin-top: 0;
+}
+.infobox .infobox_text {
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+}
+
 .met_img_with_text {
     position: relative;
     overflow: hidden;
