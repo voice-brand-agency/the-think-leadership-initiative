@@ -292,6 +292,10 @@ h6.met_bold_one {
  ------------------------------*/
 header {
     background-color: #00EAFF;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 18px;
 }
 
 header.met_content {
@@ -389,7 +393,7 @@ header aside > nav li a {
     top: 100%;
     left: 0;
     min-width: 200px;
-    background-color: #168ac1;
+    background-color: #00EAFF;
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 0 0 5px 5px;
@@ -399,8 +403,6 @@ header aside > nav li a {
 .met_main_nav > ul li ul a {
     display: block;
     color: #ffffff;
-    font-size: 14px;
-    font-weight: bold;
     text-decoration: none;
     padding: 0 19px;
     height: 35px;
@@ -447,10 +449,6 @@ header aside > nav li a {
     border-bottom: none;
 }
 
-.met_main_nav .sfHover {
-    background-color: #168ac1;
-}
-
 .met_main_nav .met_menu_home {
     background-color: #168AC1;
     font-size: 25px;
@@ -462,10 +460,6 @@ header aside > nav li a {
     padding: 0;
     color: #FFFFFF;
     display: inline-block;
-    font-weight: 300;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 18px;
     margin-right: 53px;
     border-bottom: 4px solid transparent;
 }
