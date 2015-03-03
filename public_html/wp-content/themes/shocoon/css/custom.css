@@ -28,6 +28,7 @@
  *    x- Portfolio List
  *    y- Skill Circles
  *    z- Background Images and Patterns
+ *    i- Custom Styles
  * 2-) Response For Tablets
  * 3-) Response For Mobile
  * !Note: You can make search with one of the title above to find the block according to it
@@ -190,6 +191,10 @@ h4.met_bold_one,
 h5.met_bold_one,
 h6.met_bold_one {
     font-weight: 700
+}
+
+.met_bgcolor.met_button {
+    background-color: #ff9c00;
 }
 
 .met_button, .form-submit #submit {
@@ -656,6 +661,14 @@ h2.met_title_stack {
     font-size: 24px;
     margin: 0;
     line-height: 27px;
+}
+
+.met_slider_item_caption p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 h3.met_title_stack {
@@ -1593,6 +1606,11 @@ footer > .met_content {
 .met_service_box > p {
     margin-left: 110px;
     margin-bottom: 0;
+    color: #474545;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
 }
 
 .met_service_box > h2 {
@@ -5731,3 +5749,34 @@ code, pre {
 .met_gallery_wrap a img {
     max-width: 100%;
 }
+
+/*-------------------------------
+	Custom Styles
+------------------------------*/
+
+/*Home page | Text Block*/
+.home .met_text_block h1 {
+    font-family: 'Conv_Aller_Bd', sans-serif;
+    font-size: 30px;
+    margin: 0 0 14px;
+    color: #fff;
+}
+.home .met_text_block p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+}
+.home .met_service_box > h2 {
+    display: inline-block;
+    font-family: "Conv_Aller_Bd",sans-serif;
+    font-size: 24px;
+    margin-bottom: 11px;
+    margin-left: 17px;
+    margin-top: 0;
+    color: #474545;
+}
+.home .met_service_box {
+    background-color: #f5f5f5;
+}
+/*END Home page | Text Block*/
