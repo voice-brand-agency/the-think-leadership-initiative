@@ -5761,6 +5761,7 @@ code, pre {
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
+    margin-bottom: 20px;
 }
 .home .met_service_box > h2 {
     display: inline-block;
@@ -5770,6 +5771,9 @@ code, pre {
     margin-left: 17px;
     margin-top: 0;
     color: #474545;
+}
+.home .met_service_box > h2 a {
+    color: #474545 !important;
 }
 .home .met_service_box {
     background-color: #f5f5f5;
