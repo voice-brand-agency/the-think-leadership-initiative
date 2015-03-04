@@ -402,7 +402,7 @@ header aside > nav li a {
     background-color: #00EAFF;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0;
     display: none;
 }
 
@@ -658,7 +658,7 @@ h2.met_title_stack {
     line-height: 27px;
 }
 
-.met_slider_item_caption p {
+.met_slider_item_caption p, .hero_unit .slider_content p {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -5782,5 +5782,29 @@ code, pre {
     clear: both;
     display: inline-block;
     float: right;
+}
+.developed_vba img {
+    margin-left: 14px;
+}
+.hero_unit {
+    height: 500px;
+    background-image: url("http://thinkleadership.co.nz/wp-content/uploads/2015/03/banner_01.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #3b3f48;
+    margin-bottom: 31px;
+}
+.met_bgcolor.met_button {
+    margin-top: 20px;
+}
+.slider_content.met_color2 {
+    display: table;
+    height: 500px;
+}
+.slider_content.met_color2 > div {
+    display: table-cell;
+    padding: 0 30px;
+    vertical-align: middle;
 }
 /*END Home page | Text Block*/

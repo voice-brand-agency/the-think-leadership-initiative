@@ -183,7 +183,7 @@ if('' != get_theme_mod('cacoon_twitter_username')):
 				<!-- -->
 				<div class="span4">
 					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-sidebar') ); ?>
-					<h5 class="developed_vba">Developed by: <a href="http://www.voicebrandagency.com" target="_blank">Voice Brand Agency</a></h5>
+					<h5 class="developed_vba">Developed by: <a href="http://www.voicebrandagency.com" target="_blank"><img src="http://thinkleadership.co.nz/wp-content/uploads/2015/03/logo_voice.jpg" alt="" title=""> </a></h5>
 				</div>
 				<!-- -->
 			<?php endif; ?>
