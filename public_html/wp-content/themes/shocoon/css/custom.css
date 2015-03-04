@@ -152,6 +152,7 @@
     overflow: hidden;
     position: relative;
     z-index: 3;
+    min-height: 100%;
 }
 
 .met_page_wrapper.met_boxed_layout {
@@ -1169,6 +1170,10 @@ h3.met_title_stack {
 footer {
     padding-top: 32px;
     background-color: #000;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
 }
 
 footer h3 {
@@ -5808,3 +5813,4 @@ code, pre {
     vertical-align: middle;
 }
 /*END Home page | Text Block*/
+.met_content.page_content {padding-bottom: 100px}

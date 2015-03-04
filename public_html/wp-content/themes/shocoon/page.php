@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="met_content">
+<div class="met_content page_content">
 	<?php while ( have_posts() ) : the_post(); ?>
 
 		<?php get_template_part( 'content', 'page' ); ?>
