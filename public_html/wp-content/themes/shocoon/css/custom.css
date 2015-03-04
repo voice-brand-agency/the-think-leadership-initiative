@@ -354,8 +354,12 @@ header aside > nav li a {
     margin-top: 30px;
 }
 
-.met_main_nav a:hover {
+.met_main_nav > ul > li ul li a:hover, .met_main_nav > ul > li a:hover {
     text-decoration: none;
+    border-bottom: 1px solid #ff9c00;
+}
+
+.met_main_nav > ul > li a:hover {
     border-bottom: 4px solid #ff9c00;
 }
 
@@ -401,8 +405,8 @@ header aside > nav li a {
     left: 0;
     min-width: 200px;
     background-color: #00EAFF;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 36px;
     border-radius: 0;
     display: none;
 }
@@ -411,7 +415,6 @@ header aside > nav li a {
     display: block;
     color: #ffffff;
     text-decoration: none;
-    padding: 0 19px !important;
     margin-right: 0;
     height: 35px;
     line-height: 35px;
@@ -426,15 +429,21 @@ header aside > nav li a {
 }
 
 .met_main_nav > ul > li ul li {
-    width: 100%;
+    width: auto;
+    margin-bottom: 4px;
+    padding: 0 20px;
 }
 
-.met_main_nav > ul > li ul li a {
-    border-bottom: 4px solid rgba(255, 255, 255, 0.05);
+.met_main_nav > ul > li ul li a, .met_main_nav > ul > li a {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     -webkit-transition: color ease 0.3s;
     -moz-transition: color ease 0.3s;
     -ms-transition: color ease 0.3s;
     -o-transition: color ease 0.3s;
+}
+
+.met_main_nav > ul > li a {
+    border-bottom: 4px solid rgba(255, 255, 255, 0.05);
 }
 
 .met_has_lower ul li a {
@@ -454,7 +463,7 @@ header aside > nav li a {
 }
 
 .met_main_nav > ul > li ul li:last-child a {
-    border-bottom: none;
+
 }
 
 .met_main_nav .met_menu_home {
