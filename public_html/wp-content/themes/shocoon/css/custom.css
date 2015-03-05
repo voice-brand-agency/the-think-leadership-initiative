@@ -1352,6 +1352,7 @@ footer > .met_content {
  ------------------------------*/
 .met_page_header {
     min-height: 90px;
+    background-color: #00eaff;
 }
 
 .met_page_header h1 {
@@ -1362,6 +1363,9 @@ footer > .met_content {
     margin: 0;
     font-weight: 700;
     min-width: 210px;
+    font-family: 'Roboto', sans-serif;
+     font-style: normal;
+    color: #474545;
 }
 
 .met_page_header h2 {
@@ -1390,7 +1394,7 @@ footer > .met_content {
     height: 0;
     border-style: solid;
     border-width: 0 22px 22px 0;
-    border-color: transparent #A4AEB9 transparent transparent;
+    border-color: transparent #00eaff transparent transparent;
 }
 
 .met_page_header ul {
@@ -5822,4 +5826,9 @@ code, pre {
     vertical-align: middle;
 }
 /*END Home page | Text Block*/
+/*Inner pages*/
 .met_content.page_content {padding-bottom: 100px}
+.met_page_header .met_bgcolor {
+    background-color: #f5f5f5
+}
+/*END Inner pages*/
