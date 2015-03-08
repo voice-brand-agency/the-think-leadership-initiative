@@ -5739,6 +5739,34 @@ button.close {
   .uneditable-input.span1 {
     width: 28px;
   }
+    /*Navigation*/
+    .span12.navwrap {
+        height: 100%;
+        min-height: 130px;
+    }
+    /*END Navigation*/
+}
+@media (max-width: 1169px) {
+    /*Navigation*/
+    .span12.navwrap {
+        height: 100%;
+        min-height: 130px;
+    }
+    header {
+        margin-bottom: 30px;
+    }
+    /*END Navigation*/
+}
+@media (max-width: 440px) {
+    /*Navigation*/
+    .span12.navwrap {
+        height: 100%;
+        min-height: 230px;
+    }
+    header {
+        margin-bottom: 30px;
+    }
+    /*END Navigation*/
 }
 @media (min-width: 1200px) {
   .row {

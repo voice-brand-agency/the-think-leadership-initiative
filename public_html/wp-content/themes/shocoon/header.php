@@ -112,9 +112,9 @@
     <?php endif; ?>
 
     <header>
-        <div class="met_content">
+        <div class="met_content headerwrap">
             <div class="row-fluid">
-                <div class="span12">
+                <div class="span12 navwrap">
                     <a href="<?php echo esc_url(home_url('/')); ?>" class="met_logo met_logo_loading"><img
                             src="<?php echo get_theme_mod('cacoon_logo', get_template_directory_uri() . '/img/logo.png'); ?>"
                             data-retina="<?php echo get_theme_mod('cacoon_retina_logo', get_template_directory_uri() . '/img/logo@2x.png'); ?>"

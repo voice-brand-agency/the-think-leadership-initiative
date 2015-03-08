@@ -1356,9 +1356,8 @@ footer > .met_content {
 }
 
 .met_page_header h1 {
-    line-height: 90px;
-    height: 90px;
-    padding: 0 30px;
+    height: auto;
+    padding: 32px 30px 28px;
     display: inline-block;
     margin: 0;
     font-weight: 700;
@@ -5767,6 +5766,13 @@ code, pre {
 	Custom Styles
 ------------------------------*/
 
+/*Navigation*/
+.met_content.headerwrap {
+    z-index: 99;
+}
+
+/*END Navigation*/
+
 /*Home page | Text Block*/
 .home .met_text_block h1 {
     font-family: 'Conv_Aller_Bd', sans-serif;
@@ -5827,7 +5833,7 @@ code, pre {
 }
 /*END Home page | Text Block*/
 /*Inner pages*/
-.met_content.page_content {padding-bottom: 100px}
+.met_content.page_content {padding-bottom: 130px}
 .met_page_header .met_bgcolor {
     background-color: #f5f5f5
 }
@@ -5838,6 +5844,7 @@ code, pre {
     color: #65676f;
     font-size: 14px;
     line-height: 21px;
+    display: block;
 }
 /*END styling the Visual editor in Page Builder*/
 /*END Inner pages*/
