@@ -299,8 +299,8 @@ h6.met_bold_one {
  ------------------------------*/
 header {
     background-color: #00EAFF;
-    font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-family: 'Conv_Roboto-Light', sans-serif;
     font-style: normal;
     font-size: 18px;
 }
@@ -419,6 +419,7 @@ header aside > nav li a {
     height: 35px;
     line-height: 35px;
     white-space: nowrap;
+    padding-bottom: 8px;
 }
 
 .met_main_nav ul,
@@ -429,13 +430,13 @@ header aside > nav li a {
 }
 
 .met_main_nav > ul > li ul li {
-    width: auto;
+    width: 91.2%;
     margin-bottom: 4px;
     padding: 0 20px;
 }
 
 .met_main_nav > ul > li ul li a, .met_main_nav > ul > li a {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid #ff9c00;
     -webkit-transition: color ease 0.3s;
     -moz-transition: color ease 0.3s;
     -ms-transition: color ease 0.3s;
@@ -459,7 +460,7 @@ header aside > nav li a {
 }
 
 .met_main_nav > ul > li ul li a:hover {
-    color: #FFFFFF;
+    color: #ff9c00;
 }
 
 .met_main_nav > ul > li ul li:last-child a {
@@ -669,11 +670,11 @@ h2.met_title_stack {
 }
 
 .met_slider_item_caption p, .hero_unit .slider_content p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Conv_Roboto-Light', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
-    line-height: 30px;
+    line-height: 32px;
 }
 
 h3.met_title_stack {
@@ -1619,10 +1620,11 @@ footer > .met_content {
     margin-left: 110px;
     margin-bottom: 0;
     color: #474545;
-    font-family: "Roboto",sans-serif;
+    font-family: "Conv_Roboto-Light",sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: normal;
+    line-height: 22px;
 }
 
 .met_service_box > h2 {
@@ -5770,7 +5772,9 @@ code, pre {
 .met_content.headerwrap {
     z-index: 99;
 }
-
+.met_main_nav > ul > li > a {
+    margin-left: 20px;
+}
 /*END Navigation*/
 
 /*Home page | Text Block*/
@@ -5779,13 +5783,15 @@ code, pre {
     font-size: 30px;
     margin: 0 0 14px;
     color: #fff;
+    line-height: 36px;
 }
 .home .met_text_block p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Conv_Roboto-Light', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     margin-bottom: 20px;
+    line-height: 24px;
 }
 .home .met_service_box > h2 {
     display: inline-block;
