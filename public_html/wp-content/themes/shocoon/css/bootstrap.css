@@ -623,7 +623,7 @@ h6 {
 	line-height: 16px;
 	text-rendering: optimizelegibility;
 	color: #65676F;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Conv_Roboto-Light',sans-serif;
 	font-weight: 300;
 }
 
@@ -1157,7 +1157,7 @@ input,
 button,
 select,
 textarea {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Conv_Roboto-Light',sans-serif;
 }
 label {
   display: block;
@@ -3516,7 +3516,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   margin-bottom: 0;
   padding: 4px 14px;
-  font-family: 'Open Sans';
+  font-family: 'Conv_Roboto-Light',sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -5746,37 +5746,6 @@ button.close {
     }
     /*END Navigation*/
 }
-@media (max-width: 1169px) {
-    /*Navigation*/
-    .span12.navwrap {
-        height: 100%;
-        min-height: 130px;
-    }
-    header {
-        margin-bottom: 30px;
-    }
-    .socialmediaicon {
-        text-align: left !important;
-    }
-    .navwrap {
-        height: 130px;
-    }
-    /*END Navigation*/
-}
-@media (max-width: 440px) {
-    /*Navigation*/
-    .span12.navwrap {
-        height: 100%;
-        min-height: 230px;
-    }
-    header {
-        margin-bottom: 30px;
-    }
-    .navwrap {
-        height: 230px;
-    }
-    /*END Navigation*/
-}
 @media (min-width: 1200px) {
   .row {
     margin-left: -30px;
@@ -6125,6 +6094,9 @@ button.close {
   .row-fluid .thumbnails {
     margin-left: 0;
   }
+    .caroufredsel_wrapper {
+        height: 500px !important;
+    }
 }
 @media (max-width: 979px) {
   body {

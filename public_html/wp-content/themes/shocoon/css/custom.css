@@ -5825,6 +5825,7 @@ input.met_menu_search_text {
     clear: both;
     display: inline-block;
     float: left;
+    background-color: #00eaff !important;
 }
 .developed_vba img {
     margin-left: 14px;
@@ -5868,7 +5869,7 @@ input.met_menu_search_text {
 /*END styling the Visual editor in Page Builder*/
 /*END Inner pages*/
 /*Slider :: This will fix the height of the slider*/
-.caroufredsel_wrapper {
+.caroufredsel_wrapperTEST {
     height: 500px !important;
 }
 /*END Slider*/
@@ -5885,3 +5886,8 @@ input.met_menu_search_text {
     margin-right: 17px;
 }
 /*END Social Media Icon*/
+/*Mobile Nav*/
+.met_bgcolor, .met_bgcolor_transition:hover {
+    background-color: #00d2e5 !important;
+}
+/*END Mobile Nav*/

@@ -169,6 +169,39 @@
         margin-left: 2.564102564102564%;
     }
 
+    /*Navigation*/
+    .span12.navwrap {
+        height: 100%;
+        min-height: 130px;
+    }
+    header {
+        margin-bottom: 30px;
+    }
+    .socialmediaicon {
+        text-align: left !important;
+    }
+    .navwrap {
+        height: 130px;
+    }
+    .headerwrap .row-fluid .span2 {
+        width: 18%;
+    }
+    /*END Navigation*/
+    /*Slider Fix*/
+    .caroufredsel_wrapper {
+        height: 444px !important;
+    }
+    .hero_unit  .row-fluid .span4 {
+        width: 100%;
+    }
+    .hero_unit .row-fluid .offset8:first-child {
+        margin-left: 0;
+    }
+    .slider_content.met_color2 > div {
+        padding: 0 29px !important;
+    }
+    /*END Slider Fix*/
+
 }
 
 /*-------------------------------
@@ -332,8 +365,29 @@
         width: 100%;
         text-align: center;
     }
-}
+    /*Navigation*/
+    .headerwrap .row-fluid .span2 {
+        width: 30%;
+    }
+    .socialmediaicon {
+        text-align: left !important;
+        padding: 66px 15px 0 0;
+    }
+    /*END Navigation*/
 
+    /*Info Box Tiles*/
+    .infobox .met_color4.met_bgcolor5 {
+        width: 100%;
+    }
+    /*END Info Box Tiles*/
+    h5.developed_vba {
+        padding: 12px 0 42px;
+        text-align: left;
+    }
+    footer .met_content .row-fluid [class*="span"] {
+        margin-bottom: 0;
+    }
+}
 @media all and (max-width: 440px){
 
     .met_masonry_blog_item{
@@ -342,7 +396,8 @@
 
     .met_logo{
         width: 100%;
-        text-align: center;
+        text-align: left;
+        padding-left: 0;
     }
 
     .dl-menuwrapper {
@@ -354,7 +409,7 @@
         width: 100%;
         text-indent: 1px;
         font-size: 25px;
-        font-family: 'Open Sans';
+        font-family: 'Conv_Roboto-Light',sans-serif;
         font-weight: 300;
         color: #FFF;
         text-align: left;
@@ -382,5 +437,34 @@
     .met_portfolio_list_4_columns .met_portfolio_item {
         width: 94.87179487179486%;
     }
+
+    /*Navigation*/
+    .span12.navwrap {
+        height: 100%;
+        min-height: 230px;
+    }
+    header {
+        margin-bottom: 30px;
+    }
+    .navwrap {
+        height: 230px;
+    }
+    /*END Navigation*/
+    /*Slider Fix*/
+    .met_slider_item_caption p, .hero_unit .slider_content p {
+        font-size: 20px !important;
+        line-height: normal !important;
+    }
+    /*END Slider Fix*/
+
+    /*Navigation*/
+    .headerwrap .row-fluid .span2 {
+        width: 100%;
+    }
+    .socialmediaicon {
+        text-align: center !important;
+        padding: 6px 15px 0 0;
+    }
+    /*END Navigation*/
 
 }
