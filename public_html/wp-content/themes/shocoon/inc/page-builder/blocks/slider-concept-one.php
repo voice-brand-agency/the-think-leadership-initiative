@@ -196,17 +196,16 @@ if(!class_exists('MET_Concept_Slider_One')) {
 					<div class="met_slider_wrap">
 						<div id="<?php echo $widgetID ?>" class="met_slider clearfix">
 							<?php foreach( $tabs as $tab ): ?>
-								<div class="met_slider_item clearfix">
-									<div class="met_slider_item_preview"><a href="<?php echo $tab["image_link"] ?>"><img src="<?php echo $tab["image"] ?>" alt="<?php echo esc_attr($tab["title"]) ?>"></a></div>
-									<article class="met_slider_item_caption met_bgcolor4 met_color2">
-										<div>
-											<?php if(!empty($tab["title"])): ?><h2 class="met_title_stack"><?php echo $tab["title"] ?></h2><?php endif; ?>
-											<?php if(!empty($tab["title_sub"])): ?><h3 class="met_title_stack met_bold_one"><?php echo $tab["title_sub"] ?></h3><br><?php endif; ?>
-											<?php if(!empty($tab["content"])): ?><p><?php echo htmlspecialchars_decode($tab["content"]) ?></p><?php endif; ?>
-											<?php if(!empty($tab["button_text"])): ?><br><a href="<?php echo $tab["button_link"] ?>" class="met_bgcolor met_button"><?php echo $tab["button_text"] ?></a><?php endif; ?>
-										</div>
-									</article>
-								</div>
+                                <div class="hero_unit" style="background-image: url('<?php echo $tab["image"] ?>');">
+                                    <div class="row-fluid">
+                                        <div class="span4 offset8 slider_content met_color2">
+                                            <div>
+                                                <p><?php echo htmlspecialchars_decode($tab["content"]) ?></p>
+                                                <p><a class="met_bgcolor met_button" href="<?php echo $tab["image_link"] ?>">Read More</a>
+                                                </p></div>
+                                        </div>
+                                    </div>
+                                </div>
 							<?php endforeach; ?>
 						</div>
 						<?php if($navigation == 'true'): ?>

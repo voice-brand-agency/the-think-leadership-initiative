@@ -293,7 +293,13 @@ h6.met_bold_one {
     color: #7D8995;
     line-height: 30px;
 }
-
+.met_logo {
+    display: inline-block;
+    padding-left: 19px;
+}
+.met_logo > img {
+    margin-top: 60px !important;
+}
 /*-------------------------------
 	Header
  ------------------------------*/
@@ -351,7 +357,7 @@ header aside > nav li a {
     margin-bottom: 30px;
     z-index: 4;
     position: relative;
-    margin-top: 30px;
+    margin-top: 72px;
 }
 
 .met_main_nav > ul > li ul li a:hover, .met_main_nav > ul > li a:hover {
@@ -405,7 +411,7 @@ header aside > nav li a {
     left: 0;
     min-width: 200px;
     background-color: #00d2e5;
-    padding-top: 30px;
+    padding-top: 17px;
     padding-bottom: 36px;
     border-radius: 0;
     display: none;
@@ -416,10 +422,8 @@ header aside > nav li a {
     color: #ffffff;
     text-decoration: none;
     margin-right: 0;
-    height: 35px;
-    line-height: 35px;
     white-space: nowrap;
-    padding-bottom: 8px;
+    padding-bottom: 4px;
 }
 
 .met_main_nav ul,
@@ -431,8 +435,8 @@ header aside > nav li a {
 
 .met_main_nav > ul > li ul li {
     width: 91.2%;
-    margin-bottom: 4px;
-    padding: 0 20px;
+    margin-bottom: 3px;
+    padding: 0 19px;
 }
 
 .met_main_nav > ul > li ul li a, .met_main_nav > ul > li a {
@@ -474,11 +478,12 @@ header aside > nav li a {
 }
 
 .met_main_nav a {
-    line-height: 60px;
+    line-height: 42px;
     color: #FFFFFF;
     display: inline-block;
-    margin-right: 53px;
+    margin-right: 33px;
     border-bottom: 4px solid transparent;
+    padding-bottom: 5px;
 }
 
 .met_has_lower > a:after {
@@ -546,7 +551,7 @@ header aside > nav li a {
 .met_menu_search_wrapper {
     position: absolute;
     right: 0;
-    top: 0;
+    top: -10px;
     z-index: 6;
     width: 60px;
     height: 60px;
