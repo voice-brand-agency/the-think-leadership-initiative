@@ -114,31 +114,22 @@
     <header>
         <div class="met_content headerwrap">
             <div class="row-fluid">
-                <div class="span12 navwrap">
+                <div class="navwrap">
+                    <div class="span12">
                     <a href="<?php echo esc_url(home_url('/')); ?>" class="met_logo met_logo_loading"><img
                             src="<?php echo get_theme_mod('cacoon_logo', get_template_directory_uri() . '/img/logo.png'); ?>"
                             data-retina="<?php echo get_theme_mod('cacoon_retina_logo', get_template_directory_uri() . '/img/logo@2x.png'); ?>"
                             height="<?php echo get_theme_mod('cacoon_logo_height', '44'); ?>"
                             alt="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"/></a>
-                    <aside class="clearfix">
-                        <?php
-                        $header_social_links = get_theme_mod('cacoon_social_header', '');
-                        echo $header_social_links;
-                        ?>
+                    <div class="span2 clearfix socialmediaicon">
+                        <!-- Social Media -->
 
-                        <?php if ($parentMenus['header_menu']): ?>
-                            <nav>
-                                <ul>
-                                    <?php foreach ($parentMenus['header_menu'] as $header_menu_item): ?>
-                                        <li><a href="<?php echo $header_menu_item->url ?>"
-                                               target="<?php echo $header_menu_item->target; ?>"
-                                               class="met_color_transition"><?php echo $header_menu_item->title; ?></a>
-                                        </li>
-                                    <?php endforeach; ?>
-                                </ul>
-                            </nav>
-                        <?php endif; ?>
-                    </aside>
+                        <a href="#"><img src="http://thinkleadership.co.nz/wp-content/uploads/2015/03/socialmediaicon_facebook.png"></a>
+                        <a href="#"><img src="http://thinkleadership.co.nz/wp-content/uploads/2015/03/socialmediaicon_twitter.png"></a>
+                        <a href="#"><img src="http://thinkleadership.co.nz/wp-content/uploads/2015/03/socialmediaicon_googleplus.png"></a>
+
+                        <!-- END Social Media -->
+
                     <div id="dl-menu" class="dl-menuwrapper">
                         <button class="met_bgcolor met_bgcolor_transition2">MENU</button>
                         <ul class="dl-menu met_bgcolor7">
@@ -160,7 +151,9 @@
                             ?>
                         </ul>
                     </div>
+                    </div>
                     <!-- /dl-menuwrapper -->
+                    </div>
                 </div>
             </div>
         </div>

@@ -195,7 +195,7 @@ h6.met_bold_one {
 }
 
 .met_bgcolor.met_button {
-    background-color: #00d2e5;
+    background-color: #00eaff;
 }
 
 .met_button, .form-submit #submit {
@@ -232,6 +232,7 @@ h6.met_bold_one {
     width: 40px;
     text-align: center;
     display: block;
+    font-weight: normal;
 }
 
 .met_clear_margin_top {
@@ -678,7 +679,7 @@ h2.met_title_stack {
 .met_slider_item_caption p, .hero_unit .slider_content p {
     font-family: 'Conv_Roboto-Light', sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: normal;
     font-size: 24px;
     line-height: 32px;
 }
@@ -5823,7 +5824,7 @@ input.met_menu_search_text {
 .met_bgcolor.met_button.custombtn {
     clear: both;
     display: inline-block;
-    float: right;
+    float: left;
 }
 .developed_vba img {
     margin-left: 14px;
@@ -5838,7 +5839,7 @@ input.met_menu_search_text {
     margin-bottom: 31px;
 }
 .met_bgcolor.met_button {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .slider_content.met_color2 {
     display: table;
@@ -5846,7 +5847,7 @@ input.met_menu_search_text {
 }
 .slider_content.met_color2 > div {
     display: table-cell;
-    padding: 0 30px;
+    padding: 0 70px;
     vertical-align: middle;
 }
 /*END Home page | Text Block*/
@@ -5866,3 +5867,21 @@ input.met_menu_search_text {
 }
 /*END styling the Visual editor in Page Builder*/
 /*END Inner pages*/
+/*Slider :: This will fix the height of the slider*/
+.caroufredsel_wrapper {
+    height: 500px !important;
+}
+/*END Slider*/
+/*Social Media Icon*/
+.socialmediaicon {
+    float: right !important;
+    padding: 66px 15px 0px 0px;
+    text-align: right;
+}
+.socialmediaicon a:nth-child(1) {
+    margin-right: 21px;
+}
+.socialmediaicon a:nth-child(2) {
+    margin-right: 17px;
+}
+/*END Social Media Icon*/
