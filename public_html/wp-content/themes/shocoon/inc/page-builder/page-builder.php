@@ -8,6 +8,10 @@ if(class_exists('AQ_Page_Builder')) {
 	aq_unregister_block('AQ_Tabs_Block');
 	aq_unregister_block('AQ_Alert_Block');
 
+    // Load custom block
+    require_once(AQPB_CUSTOM_DIR . 'blocks/infobox-image.php');
+    aq_register_block('MET_Image_With_Text');
+
 	//////////////////////////////////////////////////////
 	require_once(AQPB_CUSTOM_DIR . 'blocks/avatar.php');
 	aq_register_block('MET_Avatar_Block');
@@ -167,8 +171,6 @@ if(class_exists('AQ_Page_Builder')) {
 	//require_once(AQPB_CUSTOM_DIR . 'blocks/rich_text.php');
 	//aq_register_block('MET_RichText_Block');
 	//////////////////////////////////////////////////////
-
-
 
 
 	function my_enqueue($hook) {

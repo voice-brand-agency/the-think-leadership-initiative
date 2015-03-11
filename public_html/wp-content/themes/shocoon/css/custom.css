@@ -5908,3 +5908,17 @@ input.met_menu_search_text {
     background-color: #00d2e5 !important;
 }
 /*END Mobile Nav*/
+
+article.image_with_text {
+    background-color: #f5f5f5;
+}
+
+.image_with_text > img {
+    float: left;
+    margin-right: 30px;
+}
+
+h2.spaced.met_bold_one {
+    margin: 30px 0 10px 0;
+    display: block;
+}
