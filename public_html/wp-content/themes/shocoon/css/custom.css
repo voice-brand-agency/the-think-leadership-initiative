@@ -195,7 +195,7 @@ h6.met_bold_one {
 }
 
 .met_bgcolor.met_button {
-    background-color: #00d2e5;
+    background-color: #00eaff;
 }
 
 .met_button, .form-submit #submit {
@@ -719,15 +719,16 @@ h3.met_title_stack {
  ------------------------------*/
 
 .infobox h2 {
-    font:normal 15px/normal "Conv_Aller_Bd";
+    font:normal 20px/normal "Conv_Aller_Bd";
     margin-top: 0;
-    margin-bottom: 4px;
+    margin-bottom: 7px;
 }
 .infobox .infobox_text {
-    font-family: Roboto;
-    font-size: 13px;
+    font-family: "Conv_Roboto-Light",sans-serif;
+    font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
+    line-height: 21px;
 }
 
 .met_img_with_text {
@@ -1361,7 +1362,7 @@ footer > .met_content {
  ------------------------------*/
 .met_page_header {
     min-height: 90px;
-    background-color: #00eaff;
+    background-color: #00d2e5;
 }
 
 .met_page_header h1 {
@@ -1402,7 +1403,7 @@ footer > .met_content {
     height: 0;
     border-style: solid;
     border-width: 0 22px 22px 0;
-    border-color: transparent #00eaff transparent transparent;
+    border-color: transparent #00d2e5 transparent transparent;
 }
 
 .met_page_header ul {
@@ -5826,7 +5827,7 @@ input.met_menu_search_text {
     clear: both;
     display: inline-block;
     float: left;
-    background-color: #00d2e5 !important;
+    background-color: #00eaff !important;
 }
 .developed_vba img {
     margin-left: 14px;
@@ -5841,7 +5842,7 @@ input.met_menu_search_text {
     margin-bottom: 31px;
 }
 .met_bgcolor.met_button {
-    margin-top: 0px;
+    margin-top: 20px;
 }
 .slider_content.met_color2 {
     display: table;
@@ -5856,7 +5857,7 @@ input.met_menu_search_text {
 /*Inner pages*/
 .met_content.page_content {padding-bottom: 130px}
 .met_page_header .met_bgcolor {
-    background-color: #f5f5f5
+    background-color: #f5f5f5 !important;
 }
 /*styling the Visual editor in Page Builder*/
 .visualeditor_style {

@@ -198,7 +198,7 @@
         margin-left: 0;
     }
     .slider_content.met_color2 > div {
-        padding: 0 29px !important;
+        padding: 98px 29px 0 !important;
     }
     /*END Slider Fix*/
 
@@ -386,6 +386,9 @@
     }
     footer .met_content .row-fluid [class*="span"] {
         margin-bottom: 0;
+    }
+    .slider_content.met_color2 > div {
+        padding: 150px 29px 0 !important;
     }
 }
 @media all and (max-width: 440px){
