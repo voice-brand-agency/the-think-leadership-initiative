@@ -124,9 +124,9 @@
                     <div class="span2 clearfix socialmediaicon">
                         <!-- Social Media -->
 
-                        <a href="#"><img src="http://thinkleadership.co.nz/wp-content/uploads/2015/03/socialmediaicon_facebook.png"></a>
-                        <a href="#"><img src="http://thinkleadership.co.nz/wp-content/uploads/2015/03/socialmediaicon_twitter.png"></a>
-                        <a href="#"><img src="http://thinkleadership.co.nz/wp-content/uploads/2015/03/socialmediaicon_googleplus.png"></a>
+                        <a href="http://www.facebook.com/"><img src="http://thinkleadership.co.nz/wp-content/uploads/2015/03/socialmediaicon_facebook.png"></a>
+                        <a href="http://www.twitter.com/"><img src="http://thinkleadership.co.nz/wp-content/uploads/2015/03/socialmediaicon_twitter.png"></a>
+                        <a href="https://plus.google.com/"><img src="http://thinkleadership.co.nz/wp-content/uploads/2015/03/socialmediaicon_googleplus.png"></a>
 
                         <!-- END Social Media -->
 
