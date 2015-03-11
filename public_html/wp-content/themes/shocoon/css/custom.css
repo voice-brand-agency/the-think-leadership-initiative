@@ -51,7 +51,7 @@
 }
 
 .met_color4 {
-    color: #3b3f48;
+    color: #474545;
 }
 
 .met_bgcolor {
@@ -195,15 +195,15 @@ h6.met_bold_one {
 }
 
 .met_bgcolor.met_button {
-    background-color: #00eaff;
+    background-color: #00d2e5;
 }
 
 .met_button, .form-submit #submit {
     color: #FFFFFF;
-    padding: 0 40px 0 19px;
+    padding: 0 44px 0 19px;
     font-size: 12px;
-    line-height: 40px;
-    height: 40px;
+    line-height: 41px;
+    height: 41px;
     font-weight: 700;
     position: relative;
     display: inline-block;
@@ -223,7 +223,7 @@ h6.met_bold_one {
     font-family: FontAwesome;
     content: '\f067';
     font-size: 14px;
-    line-height: 40px;
+    line-height: 41px;
     color: #FFFFFF;
     position: absolute;
     right: 0;
@@ -721,6 +721,7 @@ h3.met_title_stack {
 .infobox h2 {
     font:normal 15px/normal "Conv_Aller_Bd";
     margin-top: 0;
+    margin-bottom: 4px;
 }
 .infobox .infobox_text {
     font-family: Roboto;
@@ -5810,7 +5811,7 @@ input.met_menu_search_text {
     display: inline-block;
     font-family: "Conv_Aller_Bd",sans-serif;
     font-size: 24px;
-    margin-bottom: 11px;
+    margin-bottom: 6px;
     margin-left: 17px;
     margin-top: 0;
     color: #474545;
@@ -5825,7 +5826,7 @@ input.met_menu_search_text {
     clear: both;
     display: inline-block;
     float: left;
-    background-color: #00eaff !important;
+    background-color: #00d2e5 !important;
 }
 .developed_vba img {
     margin-left: 14px;
@@ -5848,8 +5849,8 @@ input.met_menu_search_text {
 }
 .slider_content.met_color2 > div {
     display: table-cell;
-    padding: 0 70px;
-    vertical-align: middle;
+    padding: 98px 70px 0;
+    vertical-align: top;
 }
 /*END Home page | Text Block*/
 /*Inner pages*/

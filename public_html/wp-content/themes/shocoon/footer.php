@@ -233,7 +233,7 @@ if('' != get_theme_mod('cacoon_twitter_username')):
 				mousescrollstep: <?php echo get_theme_mod('cacoon_mousescrollstep',35) ?>,
 				cursorwidth: <?php echo get_theme_mod('cacoon_cursorwidth',10) ?>,
 				cursorborder: '1px solid #7E8A96',
-				cursorcolor: '<?php echo get_theme_mod('cacoon_cursorcolor','#18ADB6') ?>',
+				cursorcolor: '<?php echo get_theme_mod('cacoon_cursorcolor','#474545') ?>',
 				cursorborderradius: <?php echo get_theme_mod('cacoon_cursorborderradius',10) ?>,
 				autohidemode: <?php echo get_theme_mod('cacoon_scrollautohidemode','false') ?>,
 				cursoropacitymin: 0.1,
