@@ -1,3 +1,7 @@
+@media (min-width: 1171px) {
+    .met_content.page_content {padding-bottom: 51px}
+}
+
 @media all and (max-width: 1170px) {
 
 	.met_page_wrapper.met_boxed_layout{
@@ -71,6 +75,7 @@
         padding: 10px 40px 10px 20px;
         right: 0;
     }
+    .met_content.page_content {padding-bottom: 51px}
 }
 
 /*-------------------------------
@@ -201,7 +206,7 @@
         padding: 98px 29px 0 !important;
     }
     /*END Slider Fix*/
-
+    .met_content.page_content {padding-bottom: 130px}
 }
 
 /*-------------------------------
@@ -390,6 +395,7 @@
     .slider_content.met_color2 > div {
         padding: 150px 29px 0 !important;
     }
+    .met_content.page_content {padding-bottom: 130px}
 }
 @media all and (max-width: 440px){
 

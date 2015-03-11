@@ -5855,7 +5855,7 @@ input.met_menu_search_text {
 }
 /*END Home page | Text Block*/
 /*Inner pages*/
-.met_content.page_content {padding-bottom: 130px}
+.met_content.page_contentTEST {padding-bottom: 130px}
 .met_page_header .met_bgcolor {
     background-color: #f5f5f5 !important;
 }

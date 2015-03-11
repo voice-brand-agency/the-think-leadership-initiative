@@ -605,9 +605,9 @@ footer > .met_content {
 footer > div.met_content > .row-fluid {
     margin-bottom: 10px !important;
 }
-.met_footer_menu {margin: 23px 0 0 !important;padding-bottom: 5px !important;float:left !important}
+.met_footer_menu {margin: 13px 0 0 !important;padding-bottom: 5px !important;float:left !important}
 h6.footer_copyreserved {float:left;font-size:12px;clear:both}
-h5.developed_vba {text-align:right;padding: 28px 0 0}
+h5.developed_vba {text-align:right;padding: 18px 0 0}
 .developed_vba a, .developed_vba a:hover {color:#fff}
 
 /*Home page bottom 3rows*/
