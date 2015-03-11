@@ -1625,7 +1625,7 @@ footer > .met_content {
     font-size: 55px;
 }
 
-.met_service_box > p {
+.met_service_box > p, .visualeditor_style p{
     margin-left: 110px;
     margin-bottom: 0;
     color: #474545;
@@ -1639,6 +1639,21 @@ footer > .met_content {
 .met_service_box > h2 {
     margin-bottom: 20px;
     margin-top: 0;
+}
+.visualeditor_style p {
+    margin-bottom: 10px;
+    line-height: 24px;
+    margin-left: 0px;
+    font-weight: lighter;
+}
+.visualeditor_style h2 {
+    margin: 25px 0 0;
+    font-family: "Roboto";
+    font-weight: initial;
+}
+.visualeditor_style h3 {
+    margin: 5px 0;
+    font-weight: initial;
 }
 
 /*-------------------------------
