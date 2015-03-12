@@ -679,7 +679,7 @@ h2.met_title_stack {
 .met_slider_item_caption p, .hero_unit .slider_content p {
     font-family: 'Conv_Roboto-Light', sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: lighter;
     font-size: 24px;
     line-height: 32px;
 }

@@ -62,7 +62,7 @@ class MET_Image_With_Text extends AQ_Block {
                 <article class="met_service_box clearfix image_with_text">
                     <img src="<?php echo $boxImage; ?>">
                     <h2 class="met_bold_one spaced"><?php echo $title ?></h2>
-                    <?php echo htmlspecialchars_decode($text) ?>
+                    <p><?php echo htmlspecialchars_decode($text) ?></p>
                 </article>
             </div>
         </div>
