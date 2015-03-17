@@ -15,7 +15,8 @@ class MET_Image_With_Text extends AQ_Block {
         $defaults = array(
             'title'			=> '',
             'the_image'	    => '',
-            'text' 			=> ''
+            'text' 			=> '',
+            'link'          => ''
         );
         $instance = wp_parse_args($instance, $defaults);
         extract($instance);
@@ -40,7 +41,12 @@ class MET_Image_With_Text extends AQ_Block {
                 <?php echo aq_field_textarea('text', $block_id, $text, $size = 'full met_ckeditor') ?>
             </label>
         </p>
-
+        <p class="description">
+            <label for="<?php echo $this->get_field_id('link') ?>">
+                Link
+                <?php echo aq_field_input('link', $block_id, $link, $size = 'full') ?>
+            </label>
+        </p>
     <?php
     }
 
@@ -60,8 +66,14 @@ class MET_Image_With_Text extends AQ_Block {
         <div class="row-fluid">
             <div class="span12">
                 <article class="met_service_box clearfix image_with_text">
+                    <?php if (isset($link) && !empty($link)) { ?>
+                        <a href="<?php echo $link; ?>">
+                    <?php } ?>
                     <img src="<?php echo $boxImage; ?>">
-                    <h2 class="met_bold_one spaced"><?php echo $title ?></h2>
+                    <?php if (isset($link) && !empty($link)) { ?>
+                    </a>
+                    <?php } ?>
+                    <h2 class="met_bold_one spaced"><?php if (isset($link) && !empty($link)) { ?><a href="<?php echo $link; ?>"><?php } echo $title ?><?php if (isset($link) && !empty($link)) { ?></a><?php } ?></h2>
                     <p><?php echo htmlspecialchars_decode($text) ?></p>
                 </article>
             </div>
