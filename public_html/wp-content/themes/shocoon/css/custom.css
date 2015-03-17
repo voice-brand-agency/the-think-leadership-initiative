@@ -63,7 +63,7 @@
 }
 
 .met_bgcolor3 {
-    background-color: #1199d6;
+    background-color: #00d2e5;
 }
 
 .met_bgcolor4 {
@@ -5877,7 +5877,6 @@ input.met_menu_search_text {
 }
 /*END Home page | Text Block*/
 /*Inner pages*/
-.met_content.page_contentTEST {padding-bottom: 130px}
 .met_page_header .met_bgcolor {
     background-color: #f5f5f5 !important;
 }
@@ -5893,8 +5892,8 @@ input.met_menu_search_text {
 /*END styling the Visual editor in Page Builder*/
 /*END Inner pages*/
 /*Slider :: This will fix the height of the slider*/
-.caroufredsel_wrapperTEST {
-    height: 500px !important;
+.met_page_header .met_bgcolor > a.met_color2 {
+    color: #474545;
 }
 /*END Slider*/
 /*Social Media Icon*/

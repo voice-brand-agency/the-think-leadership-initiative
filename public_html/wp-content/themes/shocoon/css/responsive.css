@@ -476,4 +476,19 @@
     }
     /*END Navigation*/
 
+    /*Blog/Newsletter*/
+    .image_with_text > img {
+        float: none;
+        margin-right: 0;
+        width: 100%;
+    }
+    .met_service_box > p {
+        margin-left: 0;
+        padding: 0 10px 10px;
+    }
+    h2.spaced.met_bold_one {
+        margin: 30px 10px 10px;
+    }
+    /*END Blog/Newsletter*/
+
 }

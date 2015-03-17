@@ -222,6 +222,7 @@ object {
 .sidebar-widget ul li a {
     /*font-size   : 18px;
     line-height : 36px;*/
+    color: #474545;
 }
 
 .sidebar-widget ul li a:hover {

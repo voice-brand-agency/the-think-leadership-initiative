@@ -57,7 +57,7 @@ if(!empty($content_media_option) AND ($content_media_option=='html5a' OR $conten
 }
 ?>
 
-<div class="met_content">
+<div class="met_content page_content">
 	<div class="row-fluid">
 		<div class="span12">
 			<div class="met_page_header met_bgcolor5 clearfix">

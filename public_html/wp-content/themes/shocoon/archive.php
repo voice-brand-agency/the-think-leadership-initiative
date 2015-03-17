@@ -14,7 +14,7 @@ get_header();
 
 <?php if ( have_posts() ) : ?>
 
-<div class="met_content">
+<div class="met_content page_content">
 
 	<div class="row-fluid">
 		<div class="span12">
