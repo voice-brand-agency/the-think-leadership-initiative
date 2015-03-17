@@ -1625,7 +1625,7 @@ footer > .met_content {
     font-size: 55px;
 }
 
-.met_service_box > p, .visualeditor_style p {
+.met_service_box > p, .visualeditor_style p, .aq-block.aq-block-aq_editor_block p {
     margin-left: 110px;
     margin-bottom: 0;
     color: #474545;
@@ -1640,27 +1640,35 @@ footer > .met_content {
     margin-bottom: 20px;
     margin-top: 0;
 }
-.visualeditor_style p {
+.visualeditor_style p, .aq-block.aq-block-aq_editor_block p {
     margin-bottom: 34px;
     line-height: 26px;
     margin-left: 0px;
     font-weight: lighter;
     font-size: 18px;
 }
-.visualeditor_style h2 {
+.visualeditor_style h2, .aq-block.aq-block-aq_editor_block h2 {
     margin: 0 0 29px;
     font-family: "Roboto";
     font-weight: 500;
     font-size: 24px;
     line-height: 30px;
 }
-.visualeditor_style h3 {
+.visualeditor_style h3, .aq-block.aq-block-aq_editor_block h3 {
     margin: 0 0 10px;
     font-weight: 700;
     font-family: "Roboto";
     font-size: 18px;
     line-height: 26px;
 
+}
+.aq-block.aq-block-aq_editor_block ul, .aq-block.aq-block-aq_editor_block ol {
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+.aq-block.aq-block-aq_editor_block ul li, .aq-block.aq-block-aq_editor_block ol li {
+    padding-bottom: 10px;
+    line-height: 26px;
 }
 
 /*-------------------------------
@@ -5881,13 +5889,17 @@ input.met_menu_search_text {
     background-color: #f5f5f5 !important;
 }
 /*styling the Visual editor in Page Builder*/
-.visualeditor_style {
+.visualeditor_style, .aq-block.aq-block-aq_editor_block {
     padding: 30px;
     background-color: #f5f5f5;
     color: #65676f;
     font-size: 14px;
     line-height: 21px;
     display: block;
+}
+.aq-block.aq-block-aq_editor_block {
+    padding:0;
+    background-color: transparent;
 }
 /*END styling the Visual editor in Page Builder*/
 /*END Inner pages*/
@@ -5919,7 +5931,7 @@ article.image_with_text {
     background-color: #f5f5f5;
 }
 
-.image_with_text > img {
+.image_with_text > img, .image_with_text > a img {
     float: left;
     margin-right: 30px;
 }
