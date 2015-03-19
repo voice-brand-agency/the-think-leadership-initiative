@@ -1670,7 +1670,7 @@ footer > .met_content {
     padding-bottom: 4px;
 }
 .aq-block.aq-block-aq_editor_block ul li, .aq-block.aq-block-aq_editor_block ol li {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     line-height: 26px;
 }
 
@@ -5915,7 +5915,7 @@ input.met_menu_search_text {
 .visualeditor_style, .aq-block.aq-block-aq_editor_block {
     padding: 30px;
     background-color: #f5f5f5;
-    color: #65676f;
+    color: #474545;
     font-size: 14px;
     line-height: 21px;
     display: block;
