@@ -9,8 +9,7 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"/>
 
     <?php wp_head(); ?>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,700italic,700,500italic,500,900,900italic,400italic,300,100italic,100' rel='stylesheet' type='text/css'>
-    <link rel='stylesheet' href="<?php echo get_stylesheet_directory_uri() . '/assets/css/aller_fonts.css'; ?>" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
 <body <?php body_class('clearfix'); ?> data-smooth-scrolling="1">
 
