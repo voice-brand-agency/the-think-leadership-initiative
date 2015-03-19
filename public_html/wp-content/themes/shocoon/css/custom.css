@@ -1666,7 +1666,7 @@ footer > .met_content {
 
 }
 .aq-block.aq-block-aq_editor_block ul, .aq-block.aq-block-aq_editor_block ol {
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 4px;
 }
 .aq-block.aq-block-aq_editor_block ul li, .aq-block.aq-block-aq_editor_block ol li {
@@ -1878,9 +1878,23 @@ footer > .met_content {
     -o-transition: background-color ease 0.4s;
 }
 
+.met_contact_form input[type="submit"], .wpcf7-form input[type="submit"] {
+	background-color: #00d2e5;
+	border: 0 none;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    height: 41px;
+    line-height: 41px;
+    padding: 0 19px 0;
+    position: relative;
+    transition: background-color 0.4s ease-out 0s;
+}
+
 .met_contact_form input[type="submit"]:hover,
 .wpcf7-form input[type="submit"]:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    /*background-color: rgba(255, 255, 255, 0.1);*/
 }
 
 .met_contact_thank_you {
