@@ -297,7 +297,7 @@ h6.met_bold_one {
 }
 .met_logo {
     display: inline-block;
-    padding-left: 19px;
+    padding-left: 0;
 }
 .met_logo > img {
     margin-top: 60px !important;
@@ -681,7 +681,7 @@ h2.met_title_stack {
 .met_slider_item_caption p, .hero_unit .slider_content p {
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 24px;
     line-height: 32px;
 }
@@ -5817,6 +5817,9 @@ code, pre {
 }
 .met_main_nav > ul > li > a {
     margin-left: 20px;
+}
+.met_main_nav > ul > li:first-child > a {
+    margin-left: 0;
 }
 /*Search*/
 input.met_menu_search_text {
