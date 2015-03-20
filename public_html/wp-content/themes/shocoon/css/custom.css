@@ -191,7 +191,13 @@ h3.met_bold_one,
 h4.met_bold_one,
 h5.met_bold_one,
 h6.met_bold_one {
-    font-weight: 700
+}
+
+h2.met_bold_one {
+    font-size: 24px;
+    font-family: "Lato";
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .met_bgcolor.met_button {
@@ -1650,12 +1656,13 @@ footer > .met_content {
     font-weight: lighter;
     font-size: 16px;
 }
-.visualeditor_style h2, .aq-block.aq-block-aq_editor_block h2 {
+.visualeditor_style h2, .aq-block.aq-block-aq_editor_block h2, .met_bold_one h2 a, .met_bold_one h2 a {
     margin: 0 0 29px;
     font-family: "Lato";
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
+    color:#474545;
 }
 .visualeditor_style h3, .aq-block.aq-block-aq_editor_block h3 {
     margin: 0 0 10px;
