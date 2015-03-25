@@ -1677,7 +1677,7 @@ footer > .met_content {
     padding-bottom: 4px;
 }
 .aq-block.aq-block-aq_editor_block ul li, .aq-block.aq-block-aq_editor_block ol li {
-    padding-bottom: 5px;
+    padding-bottom: 1px;
     line-height: 26px;
 }
 
