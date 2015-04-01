@@ -5812,10 +5812,6 @@ cite {
     margin-top: 5px;
 }
 
-cite:before {
-    content: "\2014 \2009";
-}
-
 code, pre {
     font-size: 12px
 }
@@ -5888,6 +5884,7 @@ input.met_menu_search_text {
     display: inline-block;
     float: left;
     background-color: #00eaff !important;
+    margin-bottom:20px;
 }
 .developed_vba img {
     margin-left: 14px;
@@ -5976,3 +5973,8 @@ h2.spaced.met_bold_one {
     height: 332px;
 }
 /*END Meta Block Home page*/
+
+input.tall {
+    height: 36px;
+    width: 200px;
+}

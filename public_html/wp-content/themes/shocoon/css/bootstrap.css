@@ -689,7 +689,7 @@ ol ul {
   margin-bottom: 0;
 }
 li {
-  line-height: 16px;
+  line-height: 26px;
 }
 ul.unstyled,
 ol.unstyled {
@@ -1149,9 +1149,10 @@ input,
 button,
 select,
 textarea {
-  font-size: 11px;
+  font-size: 16px;
   font-weight: normal;
-  line-height: 16px;
+  line-height: 26px;
+    font-family: "Lato";
 }
 input,
 button,
@@ -1181,10 +1182,10 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
   display: inline-block;
-  height: 16px;
+  height: 26px;
   padding: 4px 6px;
   margin-bottom: 8px;
-  font-size: 11px;
+  font-size: 16px;
   line-height: 16px;
   color: #555555;
   -webkit-border-radius: 4px;
@@ -1195,7 +1196,7 @@ input[type="color"],
 input,
 textarea,
 .uneditable-input {
-  width: 206px;
+  width: 80%;
 }
 textarea {
   height: auto;

@@ -449,3 +449,63 @@ if( $check_setup != 1 ){
 	update_option('met_theme_setup','1');
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// To get comments working
+if ( ! function_exists( 'twentyten_comment' ) ) :
+    /**
+     * Template for comments and pingbacks.
+     *
+     * To override this walker in a child theme without modifying the comments template
+     * simply create your own twentyten_comment(), and that function will be used instead.
+     *
+     * Used as a callback by wp_list_comments() for displaying the comments.
+     *
+     * @since Twenty Ten 1.0
+     *
+     * @param object $comment The comment object.
+     * @param array  $args    An array of arguments. @see get_comment_reply_link()
+     * @param int    $depth   The depth of the comment.
+     */
+    function twentyten_comment( $comment, $args, $depth ) {
+        $GLOBALS['comment'] = $comment;
+        switch ( $comment->comment_type ) :
+            case '' :
+                ?>
+
+                <li <?php comment_class(); ?> id="li-comment-<?php comment_ID(); ?>">
+                <div id="comment-<?php comment_ID(); ?>">
+                        <?php printf( __( '%s says:', 'twentyten' ), sprintf( '%s', get_comment_author_link() ) ); ?>
+
+
+                    <div class="comment-meta commentmetadata"><a href="<?php echo esc_url( get_comment_link( $comment->comment_ID ) ); ?>">
+                            <?php
+                            /* translators: 1: date, 2: time */
+                            printf( __( '%1$s at %2$s', 'twentyten' ), get_comment_date(),  get_comment_time() ); ?></a><?php edit_comment_link( __( '(Edit)', 'twentyten' ), ' ' );
+                        ?>
+                    </div><!-- .comment-meta .commentmetadata -->
+
+                    <div class="comment-body"><?php comment_text(); ?></div>
+
+                    <?php if ( $comment->comment_approved == '0' ) : ?>
+                        <em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'twentyten' ); ?></em>
+                        <br />
+                    <?php endif; ?>
+
+                    <div class="reply">
+                        <?php comment_reply_link( array_merge( $args, array( 'depth' => $depth, 'max_depth' => $args['max_depth'] ) ) ); ?>
+                    </div><!-- .reply -->
+
+                </div><!-- #comment-##  -->
+
+                <?php
+                break;
+            case 'pingback'  :
+            case 'trackback' :
+                ?>
+                <li class="post pingback">
+                <p><?php _e( 'Pingback:', 'twentyten' ); ?> <?php comment_author_link(); ?><?php edit_comment_link( __( '(Edit)', 'twentyten' ), ' ' ); ?></p>
+                <?php
+                break;
+        endswitch;
+    }
+endif;
