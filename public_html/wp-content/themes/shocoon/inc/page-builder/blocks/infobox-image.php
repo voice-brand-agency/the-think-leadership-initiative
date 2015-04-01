@@ -71,10 +71,13 @@ class MET_Image_With_Text extends AQ_Block {
                     <?php } ?>
                     <img src="<?php echo $boxImage; ?>">
                     <?php if (isset($link) && !empty($link)) { ?>
-                    </a>
+                    </a><a href="<?php echo $link; ?>">
                     <?php } ?>
-                    <h2 class="met_bold_one spaced"><?php if (isset($link) && !empty($link)) { ?><a href="<?php echo $link; ?>"><?php } echo $title ?><?php if (isset($link) && !empty($link)) { ?></a><?php } ?></h2>
-                    <p><?php echo htmlspecialchars_decode($text) ?></p>
+                    <h2 class="met_bold_one spaced"><?php echo $title ?></h2>
+                    <?php if (isset($link) && !empty($link)) { ?>
+                        </a>
+                    <?php } ?>
+                    <?php echo htmlspecialchars_decode($text) ?>
                 </article>
             </div>
         </div>
